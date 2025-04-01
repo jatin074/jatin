@@ -1,10 +1,11 @@
-import type { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
-  output: 'export', // Enable static export
-  basePath: '/jatin', // Required for GitHub Pages
-  assetPrefix: '/jatin/', // Ensures correct asset loading
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export", // Enables static export
+  images: {
+    unoptimized: true, // Required for GitHub Pages
+  },
+  basePath: "/jatin", // Must match GitHub repo name
+  assetPrefix: "/jatin/", // Ensures assets load properly
 };
 
 export default nextConfig;
-
