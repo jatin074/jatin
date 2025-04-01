@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export', // Enable static export
+  basePath: '/jatin', // Required for GitHub Pages
+  assetPrefix: '/jatin/', // Ensures correct asset loading
 };
 
 export default nextConfig;
+
