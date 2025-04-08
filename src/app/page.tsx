@@ -20,7 +20,7 @@ export default function HomePage() {
         <Herosection />
       </div>
       <div>
-        <Image className="vector-light" src='/images/vector.svg' alt='img' width={1434} height={180} layout="responsive" />
+        <Image className="vector-light" src='/images/vector.png' alt='img' width={1434} height={180} layout="responsive" />
       </div>
       <div id="services">
         <Services />
@@ -32,21 +32,21 @@ export default function HomePage() {
         <Experience />
       </div>
       <div>
-        <Image className="vector-light" src='/images/vector.svg' alt='img' width={1434} height={180} layout="responsive" />
+        <Image className="vector-light" src='/images/vector.png' alt='img' width={1434} height={180} layout="responsive" />
       </div>
       <DesignProcess />
       <div>
-        <Image className="vector-light" src='/images/vector.svg' alt='img' width={1434} height={180} layout="responsive" />
+        <Image className="vector-light" src='/images/vector.png' alt='img' width={1434} height={180} layout="responsive" />
       </div>
       <div id="work">
         <Work />
       </div>
       <div>
-        <Image className="vector-light" src='/images/vector.svg' alt='img' width={1434} height={180} layout="responsive" />
+        <Image className="vector-light" src='/images/vector.png' alt='img' width={1434} height={180} layout="responsive" />
       </div>
       <Technologies />
       <div>
-        <Image className="vector-light contact" src='/images/vector.svg' alt='img' width={1434} height={180} layout="responsive" />
+        <Image className="vector-light contact" src='/images/vector.png' alt='img' width={1434} height={180} layout="responsive" />
       </div>
       <div id="contact">
         <Contact />

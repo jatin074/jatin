@@ -10,8 +10,8 @@ export default function Services() {
     return (
        <div>
          <div className="container">
-            <div className="md:p-[60px] sm:p-[30px] px:[16px] py-[24px] bg-black border border-[#B83CFF] sm:rounded-[20px] rounded-[12px] relative z-10 overflow-hidden">
-                <h3 data-text="Services" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-[#B83CFF] mt-[10px] text-center reflection relative">
+            <div className="md:p-[60px] sm:p-[30px] px:[16px] py-[24px] sm:bg-black sm:border border-theme sm:rounded-[20px] rounded-[12px] relative z-10 overflow-hidden">
+                <h3 data-text="Services" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-theme mt-[10px] text-center reflection relative">
                 Services <span className="text-white ml-2">I Provide</span> 
                 </h3>
                 <div className="sm:mt-[50px] mt-[24px] flex items-center flex-wrap lg:flex-nowrap justify-center sm:!gap-[80px] !gap-[40px]">
@@ -102,7 +102,7 @@ const GlowingCard = ({
             )}
 
             <Image src={imgSrc} alt="icon img" width={50} height={50} />
-            <h4 className="text-[#B83CFF] font-semibold sm:text-[24px] text-[20px] text-center sm:mt-[20px]">
+            <h4 className="text-white font-semibold sm:text-[24px] text-[20px] text-center sm:mt-[20px]">
                 {title}
             </h4>
             <h6 className="text-[16px] font-normal text-[#919EAB] text-center">

@@ -65,21 +65,21 @@ export default function Header() {
 
     return (
         <div className="header-content z-50 bg-white shadow-md">
-            <div className="sm:w-full max-w-[560px] w-[100%] mx-auto p-[8px] rounded-full bg-black header">
+            <div className="sm:w-full max-w-[560px] w-[100%] mx-auto p-[8px] rounded-full header">
                 <div className="relative flex justify-between items-center">
                     {tabs.map((tab, index) => (
                         <button
                             key={tab.id}
                             onClick={() => handleTabClick(index, tab.link)}
                             className={`relative z-50 font-poppins w-[130px] sm:text-[16px] text-[12px] text-center py-[10px] font-semibold cursor-pointer 
-                            ${activeTab === index ? "text-black" : "header-button"
+                            ${activeTab === index ? "text-white" : "header-button"
                                 }`}
                         >
                             {tab.label}
                         </button>
                     ))}
                     <div
-                        className="absolute top-0 h-full bg-[#B83CFF] rounded-full header-button-cap transition-all duration-300"
+                        className="absolute top-0 h-full sm:bg-theme bg-purple-700 rounded-full header-button-cap transition-all duration-300"
                         style={{
                             width: `${100 / tabs.length}%`,
                             left: `${(100 / tabs.length) * activeTab}%`,

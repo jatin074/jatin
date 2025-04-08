@@ -7,10 +7,10 @@ export default function Herosection() {
     <div className='sm:pt-[226px] pt-[120px] overflow-hidden'>
       <div className="container">
         <div>
-          <div className='flex flex-wrap justify-between lg:gap-[50px] gap-0 border border-[#B83CFF] sm:rounded-[20px] rounded-[12px] bg-[#000000] w-full relative z-10 hero-section'>
-            <div className='sm:pl-[50px] sm:py-[50px] pl-[30px] pt-[20px] pb-[26px]'>
-              <h2 className='sm:text-[64px] text-[40px] font-bold text-white mb-2'>Hi! I’m<span className='ml-[10px] text-[#B83CFF]'>Jay</span></h2>
-              <h3 className='text-[14px] font-semibold mr-1 text-[#B83CFF] leading-[14px]'>Creative</h3>
+          <div className='flex flex-wrap justify-between lg:gap-[50px] gap-0 sm:border border-theme sm:rounded-[20px] rounded-[12px] sm:bg-[#000000] w-full relative z-10 hero-section'>
+            <div className='sm:pl-[50px] sm:py-[50px] pl-[20px] pt-[0px] pb-[26px]'>
+              <h2 className='sm:text-[64px] text-[40px] font-bold text-white mb-2'>Hi! I’m<span className='ml-[10px] text-theme'>Jay</span></h2>
+              <h3 className='text-[14px] font-semibold mr-1 text-theme leading-[14px]'>Creative</h3>
 
 
               <div className='text-animation mb-[50px] mt-[8px]'>

@@ -81,6 +81,14 @@ export default function DesignProcess() {
                                     height={100}
                                     src="/images/process/processImg1.svg"
                                     alt="Animated"
+                                    className='sm:block hidden'
+                                />
+                                   <Image
+                                    width={100}
+                                    height={100}
+                                    src="/images/process/img1.svg"
+                                    alt="Animated"
+                                    className='sm:hidden block'
                                 />
                             </div>
                             <h3 className='text-[32px] font-medium text-white'>Research</h3>
@@ -90,11 +98,19 @@ export default function DesignProcess() {
                         <div className='subProcessPart'>
                             <h3 className='text-[32px] font-medium text-white'>02.</h3>
                             <div ref={processImgRef2} className='subProcessImg'>
-                                <Image
+                            <Image
                                     width={100}
                                     height={100}
                                     src="/images/process/processImg2.svg"
                                     alt="Animated"
+                                    className='sm:block hidden'
+                                />
+                                   <Image
+                                    width={100}
+                                    height={100}
+                                    src="/images/process/img2.svg"
+                                    alt="Animated"
+                                    className='sm:hidden block'
                                 />
                             </div>
                             <h3 className='text-[32px] font-medium text-white'>Design</h3>
@@ -104,11 +120,19 @@ export default function DesignProcess() {
                         <div className='subProcessPart'>
                             <h3 className='text-[32px] font-medium text-white'>03.</h3>
                             <div ref={processImgRef3} className='subProcessImg'>
-                                <Image
+                            <Image
                                     width={100}
                                     height={100}
                                     src="/images/process/processImg3.svg"
                                     alt="Animated"
+                                    className='sm:block hidden'
+                                />
+                                   <Image
+                                    width={100}
+                                    height={100}
+                                    src="/images/process/img3.svg"
+                                    alt="Animated"
+                                    className='sm:hidden block'
                                 />
                             </div>
                             <h3 className='text-[32px] font-medium text-white'>Develop</h3>
@@ -118,11 +142,19 @@ export default function DesignProcess() {
                         <div className='subProcessPart'>
                             <h3 className='text-[32px] font-medium text-white'>04.</h3>
                             <div ref={processImgRef4} className='subProcessImg'>
-                                <Image
+                            <Image
                                     width={100}
                                     height={100}
                                     src="/images/process/processImg4.svg"
                                     alt="Animated"
+                                    className='sm:block hidden'
+                                />
+                                   <Image
+                                    width={100}
+                                    height={100}
+                                    src="/images/process/img4.svg"
+                                    alt="Animated"
+                                    className='sm:hidden block'
                                 />
                             </div>
                             <h3 className='text-[32px] font-medium text-white'>Analysis</h3>

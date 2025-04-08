@@ -5,11 +5,12 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export default function Footer() {
     return (
-        <div className='sm:pt-[60px] pt-[30px] relative footer lg:mt-[200px] sm:mt-[100px] mt-[60px]'>
+        <div className='sm:pt-[60px] pt-[100px] relative footer mt-[60px]'>
             <div className="container">
                 <div className="grid grid-cols-12">
                     <div className='sm:col-span-5 col-span-12'>
                         <h3 className="text-[20px] font-medium text-white">Thanks for visiting! <br />Let’s build something amazing together!</h3>
+                        <h3 className="sm:text-[62px] text-[40px] font-normal text-theme font-wild_card">Jay</h3>
                     </div>
                     <div className='lg:col-span-2 sm:col-span-3 col-span-6'>
                         <h6 className='text-white text-[18px] sm:mb-[20px] mb-[10px] mt-[30px] sm:mt-0 font-medium'>Navigation</h6>
@@ -68,7 +69,7 @@ export default function Footer() {
                 </div>
 
             </div>
-            <p className='text-center text-[14px] font-normal text-[#ffffff] sm:pt-[40px] pt-[30px] sm:pb-[20px] pb-[10px]'>©2024 All rights reserved.</p>
+            <p className='text-center text-[14px] font-normal text-[#ffffff] mt-[20px] sm:py-[20px] py-[16px]'>©2024 All rights reserved.</p>
         </div>
     )
 }
