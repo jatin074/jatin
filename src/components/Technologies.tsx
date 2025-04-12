@@ -37,7 +37,7 @@ export default function Technologies() {
                 <div className="relative z-10 flex items-center justify-center h-full">
                     {/* Top Row (Fast) */}
                     <motion.div
-                        className="flex items-center justify-between w-[60%] mt-[-200px] absolute opacity-50"
+                        className="flex items-center justify-between w-[60%] mt-[-200px] absolute sm:opacity-100 opacity-50"
                         style={{ x: xFast, y: yFast }}
                     >
                         <Image className="sm:mt-[-100px] mt-[-50px] sm:w-[50px] sm:h-[50px] w-[40px] h-[40px]" src="/images/technologies/icon7.svg" alt="img" width={50} height={50} />
@@ -49,7 +49,7 @@ export default function Technologies() {
 
                     {/* Bottom Row (Slow) */}
                     <motion.div
-                        className="flex items-center justify-between w-[60%] mt-[200px] absolute opacity-50"
+                        className="flex items-center justify-between w-[60%] mt-[200px] absolute sm:opacity-100 opacity-50"
                         style={{ x: xSlow, y: ySlow }}
                     >
                         <Image className="mb-[-50px] sm:w-[60px] sm:h-[60px] w-[40px] h-[40px]" src="/images/technologies/icon1.svg" alt="img" width={60} height={60} />

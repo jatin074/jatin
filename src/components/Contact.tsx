@@ -9,8 +9,8 @@ import { TbBrandGithubFilled } from "react-icons/tb";
 export default function Contact() {
     return (
         <div className="container">
-            <div className='sm:py-[60px] py-[40px] px-[30px] sm:bg-black sm:border border-theme sm:rounded-[20px] rounded-[12px] relative z-10 lg:w-[90%] mx-auto box-shadow'>
-                <h3 data-text="Contact" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-theme text-center mb-[50px] reflection relative">
+            <div className='sm:pt-[60px] pt-[40px] px-[30px] relative z-10 lg:w-[90%] mx-auto'>
+                <h3 data-text="Contact" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-theme text-center sm:mb-[100px] mb-[70px] reflection relative">
                     Contact <span className='text-[#ffffff]'>Me</span>
                 </h3>
 

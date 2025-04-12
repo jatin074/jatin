@@ -84,12 +84,12 @@ export default function Experience() {
     return (
         <div className='relative z-10 overflow-hidden'>
             <div className='container'>
-                <div className='sm:bg-black sm:pt-[70px] sm:px-[70px] rounded-[20px] sm:overflow-hidden sm:border border-theme'>
+                <div className='pt-[70px] sm:px-[70px] rounded-[20px]  border-theme'>
                 <h3 data-text="Experience" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-[#ffffff] text-center reflection relative sm:mb-[30px]">
                     My Education & <span className='text-theme'>Work Experience</span>
                 </h3>
                 <Image src="/images/experience/object2.svg" width={170} height={170} className='before-effect' alt="icon" />
-                <div className='grid grid-cols-1 lg:grid-cols-2 gap-[40px] relative sm:py-[100px] py-[70px] w-full experience-content'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-[40px] relative sm:py-[100px] pt-[70px] w-full experience-content'>
                     {renderCard(
                         'education',
                         'My Education',

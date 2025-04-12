@@ -8,7 +8,6 @@ import Herosection from "@/components/Herosection";
 import Services from "@/components/Services";
 import Technologies from "@/components/Technologies";
 import Work from "@/components/Work";
-import Image from "next/image";
 
 
 export default function HomePage() {
@@ -19,34 +18,21 @@ export default function HomePage() {
       <div id="home">
         <Herosection />
       </div>
-      <div>
-        <Image className="vector-light" src='/images/vector.png' alt='img' width={1434} height={180} layout="responsive" />
-      </div>
-      <div id="services">
+      <div id="services" className="mb-[70px]">
         <Services />
       </div>
-      <div id="about">
+      <div id="about" className="mb-[70px]">
         <About />
       </div>
-      <div>
+      <div className="mb-[70px]">
         <Experience />
       </div>
-      <div>
-        <Image className="vector-light" src='/images/vector.png' alt='img' width={1434} height={180} layout="responsive" />
-      </div>
       <DesignProcess />
-      <div>
-        <Image className="vector-light" src='/images/vector.png' alt='img' width={1434} height={180} layout="responsive" />
-      </div>
-      <div id="work">
+      <div id="work" className="mb-[70px]">
         <Work />
       </div>
-      <div>
-        <Image className="vector-light" src='/images/vector.png' alt='img' width={1434} height={180} layout="responsive" />
-      </div>
-      <Technologies />
-      <div>
-        <Image className="vector-light contact" src='/images/vector.png' alt='img' width={1434} height={180} layout="responsive" />
+      <div className="mb-[70px]">
+      <Technologies  />
       </div>
       <div id="contact">
         <Contact />

@@ -8,13 +8,13 @@ export default function Services() {
     const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
     return (
-       <div>
+       <div className="services-section">
          <div className="container">
-            <div className="md:p-[60px] sm:p-[30px] px:[16px] py-[24px] sm:bg-black sm:border border-theme sm:rounded-[20px] rounded-[12px] relative z-10 overflow-hidden">
-                <h3 data-text="Services" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-theme mt-[10px] text-center reflection relative">
+            <div className="md:p-[60px] sm:p-[30px] px:[16px] py-[24px]  sm:rounded-[20px] rounded-[12px] relative z-10 overflow-hidden">
+                <h3 data-text="Services" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold sm:text-theme text-white mt-[10px] text-center reflection relative">
                 Services <span className="text-white ml-2">I Provide</span> 
                 </h3>
-                <div className="sm:mt-[50px] mt-[24px] flex items-center flex-wrap lg:flex-nowrap justify-center sm:!gap-[80px] !gap-[40px]">
+                <div className="sm:mt-[100px] mt-[50px] flex items-center flex-wrap lg:flex-nowrap justify-center sm:!gap-[80px] !gap-[40px]">
                     {/* UI/UX Design */}
                     <GlowingCard
                         index={0}

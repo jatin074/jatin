@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function Work() {
 
     return (
-        <div>
+        <div className='pt-[70px] sm:py-[100px]'>
             <div className="container">
                 <h3 data-text="work" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-white mb-[20px] text-center reflection relative">
                     Recent work
@@ -21,11 +21,10 @@ export default function Work() {
             <section className="lg:mt-[140px] mt-[80px]">
                 <Swiper
                     loop={true}
-                    // centeredSlides={true}
+                    centeredSlides={true}
                     slidesPerView={3}
                     spaceBetween={50}
-                    autoplay={false}
-                    // autoplay={{ delay: 2000, disableOnInteraction: false }}
+                    autoplay={{ delay: 2000, disableOnInteraction: false }}
                     navigation={false}
                     modules={[Autoplay, Navigation]}
                     breakpoints={{

@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export default function Footer() {
     return (
-        <div className='sm:pt-[60px] pt-[100px] relative footer mt-[60px]'>
+        <div className='relative footer'>
             <div className="container">
                 <div className="grid grid-cols-12">
                     <div className='sm:col-span-5 col-span-12'>
