@@ -24,7 +24,7 @@ export default function Technologies() {
         <div className="relative z-10 overflow-hidden pt-[50px]">
             <div className="container">
                 <h3 data-text="Technologies" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-white text-center reflection relative pt-[12px] sm:pt-0">
-                Tools & Technologies
+                Tools & <span className="text-theme">Technologies</span>
                 </h3>
             </div>
 

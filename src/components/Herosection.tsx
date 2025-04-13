@@ -35,7 +35,7 @@ export default function Herosection() {
               </div>
               <p className='text-[16px] font-normal text-white sm:mt-[70px] mt-[54px]'>&quot;Life is too short for bad UX , I can help you to look better.&quot;</p>
 
-              <a href="mailto:jayti0474@gmail.com" className="button rounded-[5px] py-[8px] px-[26px] text-white text-[16px] font-medium my-[10px] w-fit">Hire Me!</a>
+              <a href="mailto:jatin.ti011@gmail.com" className="button rounded-[5px] py-[8px] px-[26px] text-white text-[16px] font-medium my-[10px] w-fit">Hire Me!</a>
             </div>
             {/* <div className='mb-[1px] mt-[-70px] lg:w-auto w-full flex lg:justify-end justify-center bannerSection'>
               <div className='bannerbottomdesign'>

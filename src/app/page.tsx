@@ -37,7 +37,9 @@ export default function HomePage() {
       <div id="contact">
         <Contact />
       </div>
-      <Footer />
+     <div className="bg-[url(/images/technologies/bg.svg)] bg-center bg-no-repeat bg-cover">
+     <Footer />
+     </div>
     </>
   )
 }

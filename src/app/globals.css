@@ -767,7 +767,7 @@ body {
   min-height: 340px;
   z-index: 1;
   overflow: hidden;
-  padding-top: 300px;
+  padding-top: 200px;
 }
 
 .footer::before {
