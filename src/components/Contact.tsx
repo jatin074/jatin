@@ -2,9 +2,9 @@ import React from 'react'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoIosCloudDownload } from "react-icons/io";
-import { FaLocationDot } from "react-icons/fa6";
+// import { FaLocationDot } from "react-icons/fa6";
 import { FaSquareUpwork } from "react-icons/fa6";
-import { TbBrandGithubFilled } from "react-icons/tb";
+// import { TbBrandGithubFilled } from "react-icons/tb";
 
 export default function Contact() {
     return (
