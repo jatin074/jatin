@@ -6,6 +6,9 @@ const tailwindConfig = {
   ],
   theme: {
     extend: {
+      backgroundSize: {
+        '50': '50%',
+      },
       fontFamily: {
         poppins: 'Poppins',
         tourney_regular:'Tourney-Regular',

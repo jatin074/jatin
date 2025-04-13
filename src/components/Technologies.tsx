@@ -23,7 +23,7 @@ export default function Technologies() {
     return (
         <div className="relative z-10 overflow-hidden pt-[50px]">
             <div className="container">
-                <h3 data-text="Technologies" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-white text-center reflection relative">
+                <h3 data-text="Technologies" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-white text-center reflection relative pt-[12px] sm:pt-0">
                 Tools & Technologies
                 </h3>
             </div>
@@ -61,8 +61,8 @@ export default function Technologies() {
 
                     <div className=" relative z-20">
                        <div className="container">
-                       <p className='sm:text-[18px] text-[16px] font-light sm:leading-[32px] leading-[26px] text-center mx-auto sm:text-white text-[#b7bbc0] lg:w-[70%] w-[100%]'>I have expertise in a wide range of tools and technologies, including Figma, HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React.js, Next.js, jQuery, WordPress, Shopify, and various React npm packages. With a strong foundation in frontend development and web design.</p>
-                       <p className='sm:text-[18px] text-[16px] font-light sm:leading-[32px] leading-[26px] text-center mx-auto sm:text-white text-[#b7bbc0] lg:w-[70%] w-[100%]'>My goal is to build visually stunning and high-performing digital experiences that seamlessly blend creativity with functionality. I focus on UI/UX, smooth animations, and performance optimization to deliver engaging and user-friendly solutions across all devices.</p>
+                       <p className='sm:text-[18px] text-[16px] font-light sm:leading-[32px] leading-[26px] text-center mx-auto text-white lg:w-[70%] w-[100%]'>I have expertise in a wide range of tools and technologies, including Figma, HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React.js, Next.js, jQuery, WordPress, Shopify, and various React npm packages. With a strong foundation in frontend development and web design.</p>
+                       <p className='sm:text-[18px] text-[16px] font-light sm:leading-[32px] leading-[26px] text-center mx-auto text-white lg:w-[70%] w-[100%]'>My goal is to build visually stunning and high-performing digital experiences that seamlessly blend creativity with functionality. I focus on UI/UX, smooth animations, and performance optimization to deliver engaging and user-friendly solutions across all devices.</p>
                        </div>
                     </div>
                 </div>

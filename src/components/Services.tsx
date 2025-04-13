@@ -11,7 +11,7 @@ export default function Services() {
        <div className="services-section">
          <div className="container">
             <div className="md:p-[60px] sm:p-[30px] px:[16px] py-[24px]  sm:rounded-[20px] rounded-[12px] relative z-10 overflow-hidden">
-                <h3 data-text="Services" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold sm:text-theme text-white mt-[10px] text-center reflection relative">
+                <h3 data-text="Services" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold sm:text-theme text-white mt-[10px] text-center reflection relative pt-[12px] sm:pt-0">
                 Services <span className="text-white ml-2">I Provide</span> 
                 </h3>
                 <div className="sm:mt-[100px] mt-[50px] flex items-center flex-wrap lg:flex-nowrap justify-center sm:!gap-[80px] !gap-[40px]">

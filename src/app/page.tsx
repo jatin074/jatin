@@ -31,7 +31,7 @@ export default function HomePage() {
       <div id="work" className="mb-[70px]">
         <Work />
       </div>
-      <div className="mb-[70px]">
+      <div className="mb-[70px] bg-[url(/images/technologies/bg.svg)] bg-center bg-no-repeat bg-cover">
       <Technologies  />
       </div>
       <div id="contact">

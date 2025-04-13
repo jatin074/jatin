@@ -7,10 +7,10 @@ export default function Herosection() {
       <div className="container">
         <div>
           <div className='flex flex-wrap justify-between lg:gap-[50px] gap-0 w-full relative z-10'>
-            <div className='sm:pl-[50px] sm:py-[50px] pl-[20px] pt-[0px] pb-[26px]'>
+            <div className='sm:pl-[50px] sm:py-[50px] pl-[0px] pt-[0px] pb-[26px]'>
               <div className='flex items-center gap-2'>
                 <h1 className='sm:text-[70px] text-[52px] font-bold text-white mb-2'>Hi! I’m</h1>
-                <h1 className='sm:text-[70px] text-[52px] font-bold text-white mb-2'>Jay</h1>
+                <h1 className='sm:text-[70px] text-[52px] font-bold text-white mb-2'>Jatin</h1>
                 {/* <div className='ml-[10px] mt-[-100px] jay-text'>
                   <h2 className='sm:text-[70px] text-[52px] font-bold'>Jay</h2>
                   <h2 className='sm:text-[70px] text-[52px] font-bold'>Jay</h2>

@@ -13,7 +13,7 @@ export default function Work() {
     return (
         <div className='pt-[70px] sm:py-[100px]'>
             <div className="container">
-                <h3 data-text="work" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-white mb-[20px] text-center reflection relative">
+                <h3 data-text="work" className="md:text-[48px] sm:text-[32px] text-[26px] font-semibold text-white mb-[20px] pt-[12px] sm:pt-0 text-center reflection relative">
                     Recent work
                 </h3>
             </div>

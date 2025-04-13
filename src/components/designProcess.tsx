@@ -69,7 +69,7 @@ export default function DesignProcess() {
                 <div className='processSection lg:px-[50px] relative z-10 md:pt-[50px]'>
                     <div>
                         <div className="d-flex flex-column justify-content-between mb-[70px]">
-                            <h3 data-text="Process" className="md:text-[48px] text-[38px] font-semibold text-center mt-[40px] mb-[70px] text-theme w-full reflection relative">
+                            <h3 data-text="Process" className="md:text-[48px] text-[38px] font-semibold text-center mt-[40px] text-theme w-full reflection relative">
                                 Design <span className='text-white'>Process</span>
                             </h3>
                         </div>

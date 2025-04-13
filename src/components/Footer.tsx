@@ -10,25 +10,25 @@ export default function Footer() {
                 <div className="grid grid-cols-12">
                     <div className='sm:col-span-5 col-span-12'>
                         <h3 className="text-[20px] font-medium text-white">Thanks for visiting! <br />Let’s build something amazing together!</h3>
-                        <h3 className="sm:text-[62px] text-[40px] font-normal text-theme font-wild_card">Jay</h3>
+                        {/* <h3 className="sm:text-[62px] text-[40px] font-normal text-theme font-wild_card">Jay</h3> */}
                     </div>
                     <div className='lg:col-span-2 sm:col-span-3 col-span-6'>
                         <h6 className='text-white text-[18px] sm:mb-[20px] mb-[10px] mt-[30px] sm:mt-0 font-medium'>Navigation</h6>
                         <ul>
                             <li className='lg:mb-[14px] mb-[6px]'>
-                                <a href='#' className='text-white font-normal sm:text-[16px] text-[14px]'>Home</a>
+                                <a href='#home' className='text-white font-normal sm:text-[16px] text-[14px]'>Home</a>
                             </li>
                             <li className='lg:mb-[14px] mb-[6px]'>
-                                <a href='#' className='text-white font-normal sm:text-[16px] text-[14px]'>Services</a>
+                                <a href='#services' className='text-white font-normal sm:text-[16px] text-[14px]'>Services</a>
                             </li>
                             <li className='lg:mb-[14px] mb-[6px]'>
-                                <a href='#' className='text-white font-normal sm:text-[16px] text-[14px]'>About</a>
+                                <a href='#about' className='text-white font-normal sm:text-[16px] text-[14px]'>About</a>
                             </li>
                             <li className='lg:mb-[14px] mb-[6px]'>
-                                <a href='#' className='text-white font-normal sm:text-[16px] text-[14px]'>Work</a>
+                                <a href='#work' className='text-white font-normal sm:text-[16px] text-[14px]'>Work</a>
                             </li>
                             <li className='lg:mb-[14px] mb-[6px]'>
-                                <a href='#' className='text-white font-normal sm:text-[16px] text-[14px]'>Contact</a>
+                                <a href='#contact' className='text-white font-normal sm:text-[16px] text-[14px]'>Contact</a>
                             </li>
                         </ul>
                     </div>
