@@ -36,37 +36,42 @@ export default function Work() {
                 >
                     <SwiperSlide>
                         <div className="flex items-center justify-center w-full slide-items">
-                            <Image width={800} height={500} src="/images/work/item1.png" alt="Slide 1" />
+                            <Image width={800} height={500} src="/images/work/work1.jpg" alt="Slide 1" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex items-center justify-center w-full slide-items">
-                            <Image width={800} height={500} src="/images/work/item2.png" alt="Slide 1" />
+                            <Image width={800} height={500} src="/images/work/work2.jpg" alt="Slide 1" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex items-center justify-center w-full slide-items">
-                            <Image width={800} height={500} src="/images/work/item3.png" alt="Slide 1" />
+                            <Image width={800} height={500} src="/images/work/work3.jpg" alt="Slide 1" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex items-center justify-center w-full slide-items">
-                            <Image width={800} height={500} src="/images/work/item4.png" alt="Slide 1" />
+                            <Image width={800} height={500} src="/images/work/work4.jpg" alt="Slide 1" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex items-center justify-center w-full slide-items">
-                            <Image width={800} height={500} src="/images/work/item5.png" alt="Slide 1" />
+                            <Image width={800} height={500} src="/images/work/work5.png" alt="Slide 1" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex items-center justify-center w-full slide-items">
-                            <Image width={800} height={500} src="/images/work/item6.png" alt="Slide 1" />
+                            <Image width={800} height={500} src="/images/work/work6.png" alt="Slide 1" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex items-center justify-center w-full slide-items">
-                            <Image width={800} height={500} src="/images/work/item7.png" alt="Slide 1" />
+                            <Image width={800} height={500} src="/images/work/work7.png" alt="Slide 1" />
+                        </div>
+                    </SwiperSlide>
+                      <SwiperSlide>
+                        <div className="flex items-center justify-center w-full slide-items">
+                            <Image width={800} height={500} src="/images/work/work8.png" alt="Slide 1" />
                         </div>
                     </SwiperSlide>
                 </Swiper>

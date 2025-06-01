@@ -59,7 +59,7 @@ export default function Footer() {
                                 <a href="tel:+918401111886" className='text-white font-normal sm:text-[16px] text-[14px] flex items-center gap-4'><div className='sm:text-[16px] text-[14px] text-white'><FaPhoneAlt /></div> +91 8401111886</a>
                             </li>
                             <li className='lg:mb-[14px] mb-[6px]'>
-                                <a href="mailto:jatin.ti011@gmail.com" className='text-white font-normal sm:text-[16px] text-[14px] flex items-center gap-4'><div className='text-[18px] text-white'><MdEmail /></div>jayti0747@gmail.com</a>
+                                <a href="mailto:jatin.ti011@gmail.com" className='text-white font-normal sm:text-[16px] text-[14px] flex items-center gap-4'><div className='text-[18px] text-white'><MdEmail /></div>jatin.ti011@gmail.com</a>
                             </li>
                             <li className='lg:mb-[14px] mb-[6px]'>
                                 <div  className='text-white font-normal sm:text-[16px] text-[14px] flex items-center gap-4'><div className='text-[18px] text-white'><FaLocationDot /></div>Ahmedabad ,Gujarat India</div>

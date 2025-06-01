@@ -1,8 +1,8 @@
 import React from 'react'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { IoIosCloudDownload } from "react-icons/io";
-// import { FaLocationDot } from "react-icons/fa6";
+// import { IoIosCloudDownload } from "react-icons/io";
+import { FaLocationDot } from "react-icons/fa6";
 import { FaSquareUpwork } from "react-icons/fa6";
 // import { TbBrandGithubFilled } from "react-icons/tb";
 
@@ -20,8 +20,8 @@ export default function Contact() {
                         <a href="mailto:jatin.ti011@gmail.com" className='conact-card'><div className='contact-list-icon'><MdEmail /></div><p className='sm:text-[18px] text-[16px] font-medium sm:leading-[32px] leading-[26px] text-center card-text transition-all duration-300 ease-in-out min-h-[50px]'>jatin.ti011@gmail.com</p></a>
                         <a href="https://www.upwork.com/freelancers/~019fe6ffe2bc65d6bc" className='conact-card'><div className='contact-list-icon'><FaSquareUpwork /></div><p className='sm:text-[18px] text-[16px] font-medium sm:leading-[32px] leading-[26px] text-center card-text transition-all duration-300 ease-in-out min-h-[50px]'>UP Work</p></a>
                         {/* <a href="" className='conact-card'><div className='contact-list-icon'><TbBrandGithubFilled /></div><p className='sm:text-[18px] text-[16px] font-medium sm:leading-[32px] leading-[26px] text-center card-text transition-all duration-300 ease-in-out min-h-[50px]'>Git Hub</p></a> */}
-                        <a href="/jatin(Jay).pdf" download className='conact-card'><div className='contact-list-icon'><IoIosCloudDownload /></div><p className='sm:text-[18px] text-[16px] font-medium sm:leading-[32px] leading-[26px] text-center card-text transition-all duration-300 ease-in-out min-h-[50px]'>Download C.V</p></a>
-                        {/* <div className='conact-card'><div className='contact-list-icon'><FaLocationDot /></div><p className='sm:text-[18px] text-[16px] font-medium sm:leading-[32px] leading-[26px] text-center card-text transition-all duration-300 ease-in-out min-h-[50px]'>Ahmedabad ,Gujarat India</p></div> */}
+                        {/* <a href="/jatin(Jay).pdf" download className='conact-card'><div className='contact-list-icon'><IoIosCloudDownload /></div><p className='sm:text-[18px] text-[16px] font-medium sm:leading-[32px] leading-[26px] text-center card-text transition-all duration-300 ease-in-out min-h-[50px]'>Download C.V</p></a> */}
+                        <div className='conact-card'><div className='contact-list-icon'><FaLocationDot /></div><p className='sm:text-[18px] text-[16px] font-medium sm:leading-[32px] leading-[26px] text-center card-text transition-all duration-300 ease-in-out min-h-[50px]'>Ahmedabad ,Gujarat India</p></div>
                     </div>
                 </div>
             </div>
