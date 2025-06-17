@@ -34,6 +34,36 @@ export default function Work() {
                         1200: { slidesPerView: 3 }
                     }}
                 >
+                     <SwiperSlide>
+                        <div className="flex items-center justify-center w-full slide-items">
+                            <Image width={800} height={500} src="/images/work/work0.7.png" alt="Slide 1" />
+                        </div>
+                    </SwiperSlide>
+                     <SwiperSlide>
+                        <div className="flex items-center justify-center w-full slide-items">
+                            <Image width={800} height={500} src="/images/work/work0.8.png" alt="Slide 1" />
+                        </div>
+                    </SwiperSlide>
+                     <SwiperSlide>
+                        <div className="flex items-center justify-center w-full slide-items">
+                            <Image width={800} height={500} src="/images/work/work0.9.png" alt="Slide 1" />
+                        </div>
+                    </SwiperSlide>
+                     <SwiperSlide>
+                        <div className="flex items-center justify-center w-full slide-items">
+                            <Image width={800} height={500} src="/images/work/work0.91.png" alt="Slide 1" />
+                        </div>
+                    </SwiperSlide>
+                     <SwiperSlide>
+                        <div className="flex items-center justify-center w-full slide-items">
+                            <Image width={800} height={500} src="/images/work/work0.92.png" alt="Slide 1" />
+                        </div>
+                    </SwiperSlide>
+                     <SwiperSlide>
+                        <div className="flex items-center justify-center w-full slide-items">
+                            <Image width={800} height={500} src="/images/work/work0.93.png" alt="Slide 1" />
+                        </div>
+                    </SwiperSlide>
                     <SwiperSlide>
                         <div className="flex items-center justify-center w-full slide-items">
                             <Image width={800} height={500} src="/images/work/work6.png" alt="Slide 1" />
